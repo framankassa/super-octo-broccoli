@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDEMPTION | CONTACT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="service.html">Timetable</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+    <div class="container" style="max-width: 700px;">
+        <h1>Send Dispatch</h1>
+        
+        <p style="text-align: center; color: var(--mist-blue); margin-bottom: 40px; font-style: italic;">
+            "Inquiries, complaints, or existential thoughts are welcome—though rarely answered."
+        </p>
+        
+        <form id="contact-form">
+            <div class="form-group">
+                <label>Identifier (Full Name)</label>
+                <input type="text" placeholder="Who are you?" required>
+            </div>
+
+            <div class="form-group">
+                <label>Return Address (Email)</label>
+                <input type="email" placeholder="Where do we reply?" required>
+            </div>
+
+            <div class="form-group">
+                <label>Subject of Inquiry</label>
+                <select>
+                    <option>General Support</option>
+                    <option>Technical Error</option>
+                    <option>Academic Despair</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>The Message</label>
+                <textarea rows="6" placeholder="Write your message here..." style="width: 100%; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(197, 160, 89, 0.2); color: var(--ivory-text); padding: 15px; font-family: inherit; font-size: 1rem;"></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Transmit to the Void</button>
+        </form>
+
+        <div style="margin-top: 50px; text-align: center; border-top: 1px solid rgba(197, 160, 89, 0.1); padding-top: 30px;">
+            <p style="color: var(--jazz-gold); font-size: 0.9rem; letter-spacing: 2px;">LOCATION: ADDIS ABABA, ETHIOPIA</p>
+            <p style="color: var(--wine-red); font-size: 0.8rem; margin-top: 10px; font-weight: bold;">ESTABLISHED 2025 | SENIOR YEAR PORTAL</p>
+        </div>
+    </div>
+</body>
+</html>
